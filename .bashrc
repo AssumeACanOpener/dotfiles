@@ -1,14 +1,12 @@
-# .bashrc
-
-# Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# User specific aliases and functions
 export GEM_HOME=/home/glen/gems
-export GEM_PATH=/home/glen/gems:/usr/local/lib/ruby/gems/1.8/
+export GEM_PATH=/home/glen/gems
 export PATH=$PATH:/home/glen/gems/bin
+
+export PATH=$PATH:/home/glen/Applications/scala-2.10.0/bin
 
 alias rm='rm -i'
 alias cp='cp -i'
