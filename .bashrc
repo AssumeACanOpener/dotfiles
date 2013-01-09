@@ -16,3 +16,6 @@ alias vi='vim'
 export IRCNICK="GlenK"
 export IRCNAME="GlenK"
 export IRCUSER="GlenK"
+
+export PATH=$PATH:/home/glen/Applications/bin
+export LD_LIBRARY_PATH=/home/glen/Applications/lib
