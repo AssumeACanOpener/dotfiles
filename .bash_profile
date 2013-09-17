@@ -7,6 +7,5 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME/bin
-
-export PATH
+export PYTHONPATH=/home/glen/Applications/lib
+export PATH=$PATH:/home/glen/Applications/bin
