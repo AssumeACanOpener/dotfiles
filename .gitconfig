@@ -1,3 +1,6 @@
 [user]
 	name = Glen Kaukola
 	email = gkaukola@cs.ucr.edu
+
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
