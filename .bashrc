@@ -11,8 +11,6 @@ export IRCNICK="GlenK"
 export IRCNAME="GlenK"
 export IRCUSER="GlenK"
 
-export GEM_HOME=/home/glen/gems
-export GEM_PATH=/home/glen/gems
-export PATH=$PATH:/home/glen/Applications/bin:/home/glen/gems/bin
+export PATH=$PATH:/home/glen/Applications/bin:/home/glen/q/l32
 export LD_LIBRARY_PATH=/home/glen/Applications/lib
 export PYTHONPATH=/home/glen/Applications/lib
