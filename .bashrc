@@ -11,6 +11,8 @@ export IRCNICK="GlenK"
 export IRCNAME="GlenK"
 export IRCUSER="GlenK"
 
-export PATH=$PATH:/home/glen/Applications/bin:/home/glen/q/l32
-export LD_LIBRARY_PATH=/home/glen/Applications/lib
-export PYTHONPATH=/home/glen/Applications/lib
+export APPS=/home/glen/Applications
+export QHOME=$APPS/q
+export PATH=$PATH:$APPS/bin:$QHOME/l32
+export LD_LIBRARY_PATH=$APPS/lib
+export PYTHONPATH=$APPS/lib
