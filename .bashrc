@@ -1,3 +1,4 @@
+# Source global definitions
 if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
@@ -11,7 +12,6 @@ export IRCNICK="GlenK"
 export IRCNAME="GlenK"
 export IRCUSER="GlenK"
 
-export APPS=/home/glen/Applications
-export PATH=$PATH:$APPS/bin
-export LD_LIBRARY_PATH=$APPS/lib
-export PYTHONPATH=$APPS/lib
+export LD_LIBRARY_PATH="$HOME/.local/lib"
+export PATH="$HOME/.local/bin:$PATH"
+export PYTHONPATH="$HOME/.local/lib"
