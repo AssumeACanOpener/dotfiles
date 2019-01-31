@@ -6,7 +6,13 @@ fi
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-[ -f /usr/bin/vim ] && alias vi='vim'
+
+if [ -f /usr/bin/vim ]; then
+    alias vi='vim'
+    export EDITOR='vim'
+else
+    export EDITOR='vi'
+fi
 
 export IRCNICK="GlenK"
 export IRCNAME="GlenK"
