@@ -1,0 +1,1 @@
+#eval $(/usr/bin/keychain --eval /home/glen/.ssh/id_ed25519 /home/glen/.ssh/id_rsa)
